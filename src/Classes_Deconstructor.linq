@@ -2,6 +2,10 @@
 
 var rect = new Rectangle (12, 13);
 Console.WriteLine (rect.ToString());
+float m, n;
+(m, n) = rect;
+Console.WriteLine ($"Rectangle side lengths are {m} and {n}.");
+
 
 class Rectangle
 {
